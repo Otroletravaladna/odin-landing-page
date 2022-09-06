@@ -65,6 +65,40 @@ body{
     line-height: 30vh;
 }
 
+/*random info*/
+.info{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 2rem auto;
+}
+
+.info-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.info-imgs p{
+   width: 10rem;
+   text-align: center;
+}
+
+.info-img{
+    height: 7rem;
+    width: 7rem;
+    border: .2rem solid #3882f6;
+    border-radius: .3rem;
+    margin: 1rem;
+    margin: auto;
+}
+
 .actual-banner{
     background-color: #3882f6;
 }
@@ -85,11 +119,7 @@ body{
     border: 2px solid #e5e7eb;
 }
 
-.info h2{
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-}
+
 
 .quote{
     background-color: #e5e7eb;
