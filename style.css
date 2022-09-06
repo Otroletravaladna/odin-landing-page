@@ -21,12 +21,25 @@ body{
     margin-right: 1rem;
 }
 
-.hero{
-    background-color: #1f2937;
+.header-logo > a{
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
 }
 
-footer{
+/*hero text*/
+
+.presentation{
+    display: flex;
     background-color: #1f2937;
+    justify-content: center;
+}
+
+.hero{
+    height: 30vh;
+    width: 40vw;
 }
 
 .hero-main{
@@ -40,12 +53,9 @@ footer{
     color: #e5e7eb;
 }
 
-.header-logo > a{
-    font-size: 24px;
-    color: #f9faf8;
-    text-decoration: none;
-    font-weight: bold;
-    line-height: 40px;
+.img-hero{
+    height: 30vh;
+    width: 40vw;
 }
 
 .actual-banner{
@@ -54,6 +64,16 @@ footer{
 
 .sign-up{
     background-color: #3882f6;
+    border-radius: .5rem;
+    text-decoration: none;
+    border: none;
+    padding: .5rem 1rem;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.sign-up.banner{
+    border: 2px solid #e5e7eb;
 }
 
 .info h2{
@@ -71,4 +91,8 @@ footer{
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+}
+
+footer{
+    background-color: #1f2937;
 }
