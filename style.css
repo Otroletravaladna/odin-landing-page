@@ -35,6 +35,8 @@ body{
     display: flex;
     background-color: #1f2937;
     justify-content: center;
+    height: 50vh;
+    align-items: center;
 }
 
 .hero{
@@ -46,16 +48,21 @@ body{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-top: 0%;
+    margin-right: 1rem;
 }
 
 .sub-hero{
     font-size: 18px;
     color: #e5e7eb;
+    margin-right: 1rem;
 }
 
 .img-hero{
     height: 30vh;
     width: 40vw;
+    background-color: rgba(128, 128, 128, 0.4);
+    line-height: 30vh;
 }
 
 .actual-banner{
@@ -70,6 +77,8 @@ body{
     padding: .5rem 1rem;
     color: #e5e7eb;
     font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
 .sign-up.banner{
