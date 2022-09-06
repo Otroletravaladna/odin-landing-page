@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header{
+    background-color: #1f2937;
+}
+
+.hero{
+    background-color: #1f2937;
+}
+
+footer{
+    background-color: #1f2937;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sub-hero{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo a{
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.actual-banner{
+    background-color: #3882f6;
+}
+
+.sign-up{
+    background-color: #3882f6;
+}
+
+.info h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.quote .quote-whole {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
